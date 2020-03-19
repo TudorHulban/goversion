@@ -1,8 +1,8 @@
-# GolangCI
+# Golang CI
 ## Docker tests with Golang
 ### Create image
 ```bash
-docker run golang go get -v github.com/TudorHulban/golangci
+docker run golang go get -v github.com/TudorHulban/goversion
 ```
 ### Commit image
 ```bash
