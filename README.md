@@ -1,0 +1,2 @@
+# goversion
+Binary version injection
