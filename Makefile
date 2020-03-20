@@ -11,7 +11,7 @@ build: clean ## Builds the binary.
 	@go build -v -o $(BINARY_NAME) $(BUILD_FLAGS) -ldflags "$(LDFLAGS)" .
 
 .PHONY: docker-build
-docker-build: ## Builds the docker image.
+docker-build: ## Builds the docker image based on included Dockerfile.
 	@echo "Building image $(IMAGE)"
 	@docker build --no-cache --pull --build-arg GIT_CREDENTIALS -t $(IMAGE) .
 
