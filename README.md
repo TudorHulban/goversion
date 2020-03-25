@@ -2,7 +2,7 @@
 ## Docker tests with Golang
 ### Create image
 ```bash
-docker run golang go get -v github.com/TudorHulban/goversion
+make docker-build
 ```
 ### Commit image
 ```bash
